@@ -1,4 +1,4 @@
-#<h1>MERN Project Backend</h1>
+<h1>MERN Project Backend</h1>
 
 <div align= "inline-block">
   <img align="center" alt="Express" height="50" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
