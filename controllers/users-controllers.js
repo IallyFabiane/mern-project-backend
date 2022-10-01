@@ -1,4 +1,4 @@
-const uuid = require('uuid');
+const { v4: uuidv4 } = require('uuid');
 const HttpError = require('../models/http-error');
 
 const DUMMY_USERS = [
@@ -24,7 +24,7 @@ const signup = (req, res, next) => {
     }
 
     const createdUser = {
-        id: uuid,
+        id: uuidv4(),
         name,
         email,
         password
